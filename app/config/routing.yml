@@ -1,11 +1,11 @@
 acme_store:
     resource: "@AcmeStoreBundle/Controller/"
-    type:     annotation
-    prefix:   /
+    type: annotation
+    prefix: /store
 
 acme_hello:
     resource: "@AcmeHelloBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix: /say
 
 app:
     resource: "@AppBundle/Controller/"
