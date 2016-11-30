@@ -1,5 +1,5 @@
 acme_hello_homepage:
-    path:     /
+    path:     /homepage
     defaults: { _controller: AcmeHelloBundle:Default:index }
     
 acme_hello:

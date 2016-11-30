@@ -12,7 +12,7 @@ use FOS\RestBundle\Controller\FOSRestController;
 class DefaultController extends FOSRestController
 {
     /**
-     * @Route("/")
+     * @Route("/hoge")
      */
     public function indexAction()
     {
