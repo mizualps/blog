@@ -21,7 +21,8 @@ class AppKernel extends Kernel
             new FOS\RestBundle\FOSRestBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new FOS\UserBundle\FOSUserBundle(),
-            new JavierEguiluz\Bundle\EasyAdminBundle\EasyAdminBundle()
+            new JavierEguiluz\Bundle\EasyAdminBundle\EasyAdminBundle(),
+            new Cypress\GitElephantBundle\CypressGitElephantBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

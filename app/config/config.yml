@@ -74,5 +74,15 @@ fos_user:
 
 easy_admin:
     entities:
+        - AppBundle\Entity\User
         - AppBundle\Entity\Post
         - AppBundle\Entity\Comment
+        - AppBundle\Entity\Comments
+        - Acme\StoreBundle\Entity\Product
+        
+cypress_git_elephant:
+    binary_path: ‪C:\gitrepo
+    repositories:
+        "GitElephant": "‪C:\\gitrepo\\hoge"
+        "Bootstrap": "/home/matteo/libraries/Bootstrap"
+        # ... other repositories

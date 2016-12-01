@@ -32,3 +32,7 @@ monolog:
 
 #swiftmailer:
 #    delivery_address: me@example.com
+
+#cypress_git_elephant:
+#    enable_profiler: true
+#    profiler_repository_path: "%kernel.root_dir%/../"
