@@ -9,6 +9,8 @@ use Acme\StoreBundle\Entity\Product;
 use FOS\RestBundle\Controller\Annotations as Rest;
 use FOS\RestBundle\View\View;
 use FOS\RestBundle\Controller\FOSRestController;
+use Pagerfanta\Pagerfanta;
+
 class DefaultController extends FOSRestController
 {
     /**
